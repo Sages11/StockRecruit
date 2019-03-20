@@ -77,7 +77,7 @@ Sp <- bootricker1$coefboot[,"Rp"]*exp(1)/bootricker1$coefboot[,"a"]
 #function as follows
 ( qSp <- quantile(Sp,c(0.5,0.025,0.975)) )
 
-#Thus, one is 95% condent that the stock level that produces the peak recruitment level is between 63.7
+#Thus, one is 95% confident that the stock level that produces the peak recruitment level is between 63.7
 #and 99.6. An interesting plot (Figure ??) of these results, along with the peak level of recruitment results,
 #is constructed with
 plot(recruits~stock,data=srdata,pch=19,col="gray")
